@@ -1,6 +1,8 @@
 name: Advance Image Sequence (Scheduled)
 
 on:
+  schedule:
+    - cron: '*/15 * * * *' # every hour
   workflow_dispatch: # Allows manual trigger via API or GitHub UI as well
 
 jobs:
