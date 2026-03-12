@@ -92,7 +92,7 @@ wait
 for j in *.png
     do
 	echo "$j"
-	magick convert -brightness-contrast 15x35 "$j" "$j"
+	magick convert -brightness-contrast 10x15 "$j" "$j"
 done
 wait
 
